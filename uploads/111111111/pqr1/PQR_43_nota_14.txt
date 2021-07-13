@@ -1,0 +1,73 @@
+if($PWEBTablaPrecio[0]->ValorConIva == true){
+						$IVA = $valor / ( 1 + $IvaId / 100) * $IvaId / 100;
+					}else{
+						$IVA = $valor * $IvaId / 100;
+						$valor = $valor + $IVA;
+}
+
+
+SELECT * FROM MONTAJE
+
+SELECT * FROM PRODUCTO WHERE productoid = 015774
+
+-- Valor Seguro
+SELECT Valor FROM ListaPrecio WHERE Lista = 1 AND ProductoId = (SELECT PRODUCTOS FROM MONTAJE)
+
+
+
+INSERT INTO ConsumoReserva (
+	ReservaId
+	,TerceroId
+	,Fecha
+	,ProductoId
+	,Cantidad
+	,CantiFracc
+	,Valor
+	,ValorFracc
+	,IvaId
+	,Iva
+	,IvaFraccio
+	,Descuento
+	,DescuPieFa
+	,PorceDescu
+	,DescuProdu
+	,PorceDescP
+	,IvaDescuen
+	,PreciPubli
+	,UsuarioId
+	,FechaRegis
+	,Tipo
+	,Facturado
+)VALUES(
+	-- ReservaId
+	, -- TerceroId A facturar
+	,GETDATE()
+	,(SELECT ProductoSH FROM Montaje)
+	,1
+	,0
+	,-- Valor segun la tarifa menos el valor del SEGURO
+	,0 -- ValorFracc
+	,IvaId
+	,Iva
+	,0 -- IvaFraccio
+	,0 --Descuento
+	,0 --DescuPieFa
+	,0 --PorceDescu
+	,0 --DescuProdu
+	,0 --PorceDescP
+	,0 --IvaDescuen
+	,0 --PreciPubli
+	,0 --UsuarioId
+	,0 --FechaRegis
+	,SH Tipo
+	,0 -- Facturado
+)
+
+
+
+
+(SELECT ProductoSH FROM Montaje)
+
+select * from producto where productoid = 015775
+
+select * from HeadProd where headprodid = 4433

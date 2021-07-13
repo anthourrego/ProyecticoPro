@@ -1,0 +1,26 @@
+Controladores
+Residente\Residente\application\controllers\PQR
+
+Modelos
+Residente\Residente\application\models\PQR
+
+Vistas
+Residente\Residente\application\views\PQR
+
+CSS
+Residente\Residente\assets\css\personalizados\pqr
+
+JS
+Residente\Residente\assets\js\personalizados\PQR
+
+CSS Data Table
+Residente\Residente\assets\css\dataTables\tablaspersonalizadas.css
+
+Esos dos modelos se importaror para que funcionara lo de PQR
+
+MY_Controller
+Residente\Residente\application\core\MY_Controller.php -> funcion MY_OTRO_Controller
+
+
+MY_Model
+Residente\Residente\application\core\MY_Model.php

@@ -1,0 +1,336 @@
+.GestionDocumentos {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 35px;
+    padding: 10px;
+    background-color: #4894D7;
+    border: 1px dotted;
+    border-radius: 10px;
+    color: white;
+}
+
+.GestionDocumental {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 10px;
+    padding: 1px;
+    background-color: #4894D7;
+    border: 1px;
+    border-radius: 10px;
+    color: white;
+}
+
+.textoTabEncabezado{
+    margin: 10px !important;
+    margin-top: 6px !important;
+}
+
+.encabezadosNav {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 5px;
+    padding: 2px;
+    background-color: #4894D7;
+    border: 1px solid;
+    border-radius: 20px;
+    color: white;
+    width: 100%;
+    font-weight: bold;
+}
+.CrearDocumentobtn:disabled{
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+.guardarCambios:disabled{
+  opacity: 0.65;
+  cursor: not-allowed;  
+}
+
+.colTabNav{
+  padding: 0;
+}
+
+.colNavItem a{
+  padding: 2px;
+}
+
+.colNavItem a:hover{
+  -webkit-box-shadow: 2px 1px 10px 0px rgba(0,0,0,0.49);
+  -moz-box-shadow: 2px 1px 10px 0px rgba(0,0,0,0.49);
+  box-shadow: 2px 1px 10px 0px rgba(0,0,0,0.49);
+  transition: 0.9s;
+}
+
+.contenedorConfig{
+  width: 100%;
+  height: 80px;
+  padding: 1px;
+  float:left;
+  border-radius: 2px;
+  /*border-radius: 20%;*/
+  -webkit-transition: height .2s;
+  background-color: white;
+}
+
+.listaMejoramiento {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 35px;
+    padding: 10px;
+    background-color: #4894D7;
+    border: 1px dotted;
+    color: white;
+    border-radius: 10px;
+}
+
+.labelDocs{
+  text-align: left !important;
+  padding: 0px;
+  margin-top: 10px;
+}
+.textAreaJustificacion{
+  height: 70px;
+  border: 1px solid #dbdbdb;
+}
+.anexarArchivos{
+padding: 3px 0px 1px 0px;
+background-color: #4A9EE1;
+color: #fff;
+letter-spacing: 1px;
+font-weight: 100;
+border-radius: 5px;
+border: 1px solid #bebebe;
+}
+
+.cancelarDocs{
+padding: 3px 0px 1px 0px;
+background-color: #d42c2c;
+color: #fff;
+letter-spacing: 1px;
+font-weight: 100;
+border-radius: 5px;
+border: 1px solid #bebebe;
+}
+.cancelarDocs:hover{
+  background-color: #C12828;
+}
+.cancelarDocs:disabled{
+  opacity: 0.65;
+  cursor: not-allowed;  
+}
+
+.warningDocs{
+padding: 3px 0px 1px 0px;
+background-color: #f0ad4e;
+color: #fff;
+letter-spacing: 1px;
+font-weight: 100;
+border-radius: 5px;
+border: 1px solid #bebebe;
+}
+.warningDocs:hover{
+  background-color: #DD9C46;
+}
+.warningDocs:disabled{
+  opacity: 0.65;
+  cursor: not-allowed;  
+}
+
+.calculaHorasLab{
+padding: 3px 0px 1px 0px;
+background-color: #4a9ee1;
+color: #fff;
+letter-spacing: 1px;
+font-weight: 100;
+border-radius: 5px;
+border: 1px solid #bebebe;
+}
+.guardarCambios{
+    padding: 3px 0px 1px 0px;
+    background-color: #91AC04;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 100;
+    border-radius: 5px;
+    border: 1px solid #bebebe;
+}
+.guardarCambios:hover{
+  background-color: #849D04;
+}
+.enviarSolicitud{
+    padding: 3px 0px 1px 0px;
+    background-color: #91AC04;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 100;
+    border-radius: 5px;
+    border: 1px solid #bebebe;
+}
+.h1DocsGuardados{
+    font-size: 20px;
+    padding: 6px;
+    width: 360px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.h1ContextoTittle{
+    font-size: 30px;
+    width: 360px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    color: white;
+    margin-top: 0;
+}
+.docRevisado {
+    background-color: #F4BA48;
+    padding: 5px 10px;
+    border-radius: 50%;
+    margin-right: 3px;
+}
+.docAprovado{
+    background-color: #6F8A00;
+    padding: 5px 10px;
+    border-radius: 50%;
+    margin-right: 3px;
+}
+.docEnviado{
+    background-color: #A4A4A4;
+    padding: 5px 10px;
+    border-radius: 50%;
+    margin-right: 3px;
+    margin-left: 5px;
+}
+
+.docSinRevision{
+    background-color: #D8D8D8;
+    padding: 5px 10px;
+    border-radius: 50%;
+    margin-right: 3px;
+    margin-left: 5px;
+}
+
+.docRechazado{
+    background-color: #FE2E2E;
+    padding: 5px 10px;
+    border-radius: 50%;
+    margin-right: 3px;
+    margin-left: 5px;
+}
+
+
+.CrearDocumentobtn{
+  padding: 4px;
+border-radius: 5px;
+border: 1px solid #d3d3d3;
+background-color: #AFCA22;
+color: #fff;
+font-size: 15px;
+font-weight: 100;
+letter-spacing: 1px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.CrearDocumentobtn:hover{
+  background-color: #A0B81F;
+}
+
+.CrearDocumentobtn{
+  padding: 4px;
+border-radius: 5px;
+border: 1px solid #d3d3d3;
+background-color: #AFCA22;
+color: #fff;
+font-size: 15px;
+font-weight: 100;
+letter-spacing: 1px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.cursorDisabled{
+    cursor: not-allowed;
+}
+
+.CrearNoConformidad{
+  padding: 4px;
+border-radius: 5px;
+border: 1px solid #d3d3d3;
+background-color: #AFCA22;
+color: #fff;
+font-size: 15px;
+font-weight: 100;
+letter-spacing: 1px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.btnCrear{
+    padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #d3d3d3;
+  background-color: #AFCA22;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btnCrearNC{
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid #d3d3d3;
+  background-color: #AFCA22;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.thTDocs{
+  border: 1px solid #0161A4;
+  background-color: #4894D7;
+  color: #fff;
+  font-weight: 100;
+  letter-spacing: 1px;
+  padding: 10px 10px 10px 10px !important;
+  vertical-align: middle !important;
+}
+.tdTDocs{
+  border: 2px solid #e1e1e1;
+}
+.ATDocs{
+  background-color: transparent !important;
+  padding: 6px 10px !important;
+}
+
+/*//si*/
+.OpcionesTDocs {
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #4894d7;
+}
+.OpcionesTDocsTabs {
+    padding: 0;
+    background-color: #ffffff;
+    border: 1px solid #4894d7;
+}
+.OpcionesTDocsTabs.active{
+    background-color: #4894D7;
+}
+.OpcionesTDocsTabs.active a{
+    color : #fff !important;
+}
+
+.OpcionesTDocsM {
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #4894d7;
+}
+
+
